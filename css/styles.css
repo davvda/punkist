@@ -1,0 +1,44 @@
+html {
+    padding-left: 1em;
+    background-color: #FFFFE7;
+  }
+
+  ol, ul,
+  h1 {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    font-weight: normal;
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: small;
+  }
+
+  li {
+    padding-left: 1em;
+    padding-bottom: 0.35em;
+  }
+
+  h2 {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    font-weight: normal;
+  }
+
+  a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 172, 47);
+  }
+
+  a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='currentColor' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
