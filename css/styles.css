@@ -1,28 +1,13 @@
 html {
     padding-left: 1em;
     background-color: #FFFFE7;
-  }
-
-  ol, ul,
-  h1 {
     font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
     font-weight: normal;
-  }
-
-  p {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
-    font-size: small;
   }
 
   li {
     padding-left: 1em;
     padding-bottom: 0.35em;
-  }
-
-  h2 {
-    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
-    font-weight: normal;
   }
 
   a {
