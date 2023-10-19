@@ -5,6 +5,10 @@ html {
     font-weight: normal;
   }
 
+p {
+    width: 450px;
+  }
+
 ul{
   list-style-type: none;
 }
